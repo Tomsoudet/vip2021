@@ -581,7 +581,7 @@ DROP TABLE IF EXISTS `parametres`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `parametres` (
   `LOGIN` varchar(20) NOT NULL,
-  `PASSWD` varchar(100) NOT NULL
+  `PASSWD` varchar(200) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -591,7 +591,7 @@ CREATE TABLE `parametres` (
 
 LOCK TABLES `parametres` WRITE;
 /*!40000 ALTER TABLE `parametres` DISABLE KEYS */;
-INSERT INTO `parametres` VALUES ('admin','fcdda9d67ad2ffd96a0ed44ccb967e7b31747d54');
+INSERT INTO `parametres` VALUES ('admin','d30d83449db6ffb5158fb37d9faf7c158cd3a94efd17736be9a0c292923764a446dc');
 /*!40000 ALTER TABLE `parametres` ENABLE KEYS */;
 UNLOCK TABLES;
 
