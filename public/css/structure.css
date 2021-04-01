@@ -81,3 +81,13 @@ a  {
 .traitVertical {
   border-left: 1px white solid;
 }
+
+.initiale {
+  display: inline-block;
+}
+
+#listeVIP {
+  display: inline-block;
+  margin: 15px;  
+
+}

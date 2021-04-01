@@ -13,7 +13,7 @@ let pool  = mysql.createPool({
   user     : 'bd',
   password : 'bede',
   database : 'vip',
-  port : "3306"
+  port : "3308"
 });
 
 module.exports.getConnection = function(callback) {
